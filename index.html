@@ -22,28 +22,40 @@
 
 	<title>Nina Carducci - Photographe</title>
 	
+	   <!-- Schema.org LocalBusiness JSON-LD -->
 	<script type="application/ld+json">
 		{
 		  "@context": "https://schema.org",
 		  "@type": "LocalBusiness",
 		  "name": "Nina Carducci - Photographe",
-		  "description": "Photographe spécialisée en portraits et événementiel, basée à Bordeaux.",
+		  "image": "https://nina-carducci-photographe.netlify.app/assets/images/nina-lossy.webp",
+		  "@id": "https://ninacarducci.github.io",
 		  "url": "https://ninacarducci.github.io",
-		  "telephone": "+33-5-56-67-78-89",
+		  "telephone": "+33 5 56 67 78 89",
 		  "address": {
 			"@type": "PostalAddress",
 			"streetAddress": "68 avenue Alsace-Lorraine",
 			"addressLocality": "Bordeaux",
-			"addressRegion": "Nouvelle-Aquitaine",
 			"postalCode": "33200",
 			"addressCountry": "FR"
 		  },
 		  "geo": {
 			"@type": "GeoCoordinates",
-			"latitude": 44.84665,
-			"longitude": -0.60648
+			"latitude": 44.8333,
+			"longitude": -0.5667,
 		  },
-		  "openingHours": "Mo-Fr 10:00-19:00",
+		  "openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+			  "Monday",
+			  "Tuesday",
+			  "Wednesday",
+			  "Thursday",
+			  "Friday"
+			],
+			"opens": "10:00",
+			"closes": "19:00"
+		  },
 		  "sameAs": [
 			"https://www.instagram.com/ninacarducci.photo/?hl=fr"
 		  ]
@@ -56,14 +68,11 @@
     <meta property="og:url" content="https://nina-carducci-photographe.netlify.app">
     <meta property="og:url" content="https://ninacarducci.github.io">
 
-
 	<!-- instagram Card Meta Tags -->
     <meta name="instagram:card" content="summary_large_image">
     <meta name="instagram:title" content="Nina Carducci - Photographre">
     <meta name="instagram:description" content="Nina Carducci, Photographe portraits & événementiel.">
     <meta name="instagram:site" content="@ninacarducci">
-
-
 
 </head>
 <body>
