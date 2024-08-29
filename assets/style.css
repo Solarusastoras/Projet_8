@@ -103,7 +103,7 @@ body {
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #ffff;
     font-weight: bold;
-	background-color: #686335;
+	background-color: #5D5935;
 	border-radius: 15px;
 }
 .nav-pills .nav-link {
@@ -244,6 +244,8 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+
+
 
 @media all and (max-width: 1180px) {
 	.picture {
